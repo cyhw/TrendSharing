@@ -59,9 +59,10 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>edu.ecnu.hwu.ElemeEvaluator</mainClass>
+                                    <mainClass>edu.ecnu.hwu.CainiaoEvaluator</mainClass>
                                 </transformer>
                             </transformers>
+                            <finalname>cainiao</finalname>
                         </configuration>
                     </execution>
                 </executions>
